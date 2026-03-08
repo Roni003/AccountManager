@@ -17,8 +17,8 @@ import java.util.Optional;
 
 @Mod(modid = "accountmanager", version = "@VERSION@", clientSideOnly = true, acceptedMinecraftVersions = "1.8.9")
 public class AccountManager {
-  private static final Minecraft mc = Minecraft.getMinecraft();
-  private static final File file = new File(mc.mcDataDir, "accounts.json");
+  private static final File homeDirectory = new File(System.getProperty("user.home"), ".accountmanager");
+  private static final File file = new File(homeDirectory, "accounts.json");
   private static final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
   public static final ArrayList<Account> accounts = new ArrayList<>();
