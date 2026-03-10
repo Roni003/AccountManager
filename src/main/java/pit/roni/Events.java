@@ -36,7 +36,7 @@ public class Events {
         "&7Username: &3%s&r", SessionManager.get().getUsername()
       ));
       GlStateManager.disableLighting();
-      mc.currentScreen.drawString(mc.fontRendererObj, text, 3, 3, -1);
+      mc.currentScreen.drawString(mc.fontRendererObj, text, 2, 2, -1);
       GlStateManager.enableLighting();
     }
   }
@@ -45,7 +45,7 @@ public class Events {
   public void initGuiEvent(InitGuiEvent.Post event) {
     if (event.gui instanceof GuiSelectWorld || event.gui instanceof GuiMultiplayer) {
       event.buttonList.add(new GuiButton(
-        69, event.gui.width - 106, 6, 100, 20, "Accounts"
+        69, 2, 12, 100, 20, "Accounts"
       ));
     }
 
