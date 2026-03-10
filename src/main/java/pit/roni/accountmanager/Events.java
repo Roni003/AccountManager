@@ -1,9 +1,9 @@
-package pit.roni;
+package pit.roni.accountmanager;
 
-import pit.roni.auth.Account;
-import pit.roni.auth.SessionManager;
-import pit.roni.gui.GuiAccountManager;
-import pit.roni.utils.TextFormatting;
+import pit.roni.accountmanager.auth.Account;
+import pit.roni.accountmanager.auth.SessionManager;
+import pit.roni.accountmanager.gui.GuiAccountManager;
+import pit.roni.accountmanager.utils.TextFormatting;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiDisconnected;

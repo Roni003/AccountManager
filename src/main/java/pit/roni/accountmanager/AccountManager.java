@@ -1,9 +1,9 @@
-package pit.roni;
+package pit.roni.accountmanager;
 
 
 import com.google.gson.*;
-import pit.roni.auth.Account;
-import pit.roni.utils.SSLUtils;
+import pit.roni.accountmanager.auth.Account;
+import pit.roni.accountmanager.utils.SSLUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;

@@ -1,4 +1,4 @@
-package pit.roni.auth;
+package pit.roni.accountmanager.auth;
 
 public class Account {
   private String refreshToken;

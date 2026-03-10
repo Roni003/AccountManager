@@ -1,4 +1,4 @@
-package pit.roni.utils;
+package pit.roni.accountmanager.utils;
 
 @SuppressWarnings("unused")
 public class Notification {

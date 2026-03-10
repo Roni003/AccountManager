@@ -1,8 +1,8 @@
-package pit.roni.auth;
+package pit.roni.accountmanager.auth;
 
 import com.google.gson.*;
 import com.sun.net.httpserver.HttpServer;
-import pit.roni.utils.SSLUtils;
+import pit.roni.accountmanager.utils.SSLUtils;
 import net.minecraft.util.Session;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;

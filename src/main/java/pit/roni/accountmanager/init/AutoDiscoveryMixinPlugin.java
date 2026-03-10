@@ -1,4 +1,4 @@
-package pit.roni.init;
+package pit.roni.accountmanager.init;
 
 import org.spongepowered.asm.lib.tree.ClassNode;
 import org.spongepowered.asm.mixin.extensibility.IMixinConfigPlugin;

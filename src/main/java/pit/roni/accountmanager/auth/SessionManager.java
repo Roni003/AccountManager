@@ -1,4 +1,4 @@
-package pit.roni.auth;
+package pit.roni.accountmanager.auth;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.Session;

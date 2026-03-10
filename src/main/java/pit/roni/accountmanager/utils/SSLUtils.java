@@ -1,4 +1,4 @@
-package pit.roni.utils;
+package pit.roni.accountmanager.utils;
 
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;

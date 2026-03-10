@@ -1,4 +1,4 @@
-package pit.roni.utils;
+package pit.roni.accountmanager.utils;
 
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;

@@ -1,11 +1,11 @@
-package pit.roni.gui;
+package pit.roni.accountmanager.gui;
 
-import pit.roni.AccountManager;
-import pit.roni.auth.Account;
-import pit.roni.auth.MicrosoftAuth;
-import pit.roni.auth.SessionManager;
-import pit.roni.utils.Notification;
-import pit.roni.utils.TextFormatting;
+import pit.roni.accountmanager.AccountManager;
+import pit.roni.accountmanager.auth.Account;
+import pit.roni.accountmanager.auth.MicrosoftAuth;
+import pit.roni.accountmanager.auth.SessionManager;
+import pit.roni.accountmanager.utils.Notification;
+import pit.roni.accountmanager.utils.TextFormatting;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.*;
 import org.apache.commons.lang3.StringUtils;
