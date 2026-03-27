@@ -193,6 +193,7 @@ public class GuiAccountManager extends GuiScreen {
               .handle((session, error) -> {
                 if (session != null) {
                   account.setUsername(session.getUsername());
+                  AccountManager.lastLogin = session.getUsername();
                   AccountManager.save();
                   SessionManager.set(session);
                   notification = new Notification(TextFormatting.translate(String.format(
@@ -243,6 +244,7 @@ public class GuiAccountManager extends GuiScreen {
                 account.setRefreshToken(refreshToken.get());
                 account.setAccessToken(accessToken.get());
                 account.setUsername(session.getUsername());
+                AccountManager.lastLogin = session.getUsername();
                 AccountManager.save();
                 SessionManager.set(session);
                 notification = new Notification(TextFormatting.translate(String.format(
