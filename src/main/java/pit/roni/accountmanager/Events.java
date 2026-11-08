@@ -49,7 +49,6 @@ public class Events {
       ));
       GlStateManager.disableLighting();
       mc.currentScreen.drawString(mc.fontRendererObj, text, 2, 2, -1);
-      GlStateManager.enableLighting();
     }
 
     if (mc.currentScreen instanceof GuiMainMenu && autoLoginNotification != null && !autoLoginNotification.isExpired()) {
@@ -61,7 +60,6 @@ public class Events {
         0x64000000
       );
       mc.currentScreen.drawCenteredString(mc.fontRendererObj, notificationText, mc.currentScreen.width / 2, 4 + 3, -1);
-      GlStateManager.enableLighting();
     }
   }
 
